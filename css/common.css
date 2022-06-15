@@ -72,3 +72,12 @@ input, textarea {color:inherit;font-size:inherit;
        font-family:inherit;
        vertical-align: middle;}
 button{outline:0}
+
+@media all and (max-width:785px){ 
+      
+      html{font-size:12px;}
+            
+       body{
+           font-size:12px; 
+       }
+}
