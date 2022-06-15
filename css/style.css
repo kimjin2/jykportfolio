@@ -820,7 +820,7 @@ transition: 4s transform, 5s opacity;
 @media all and (max-width:785px){  
 
 	.container{
-		transform: translate(11%) scale(0.65);
+		transform: translate(11%) scale(0.678);
 		}
 
 	#headerIn .gnb{
@@ -940,7 +940,7 @@ transition: 4s transform, 5s opacity;
 	}
 	#section3 .second-section-1.show-animation {
 		top: 12%;
-		left: 15%;
+		left: 10%;
 	}
 
 	#section3 .second-section-1 .text-wrapper-1 > h2{
@@ -956,7 +956,7 @@ transition: 4s transform, 5s opacity;
 
 	#section3 .text-wrapper-1-1{
 		top: 35%;
-   		right: 12%;
+   		right: 15%;
 	}
 	#section3 .text-wrapper-1-1 > img{
 		width: 100%;}
@@ -994,9 +994,14 @@ transition: 4s transform, 5s opacity;
 			background-size: 130%;}
 
 			#section5 .container .text-wrapper3 .white-panel3 > a > .txt4 {
-			
-				font-size: 0.7em;
+				font-size: 0.9em;
 			}
+	
+	#section5 .container .text-wrapper  .white-panel > a >  .txt2,
+	#section5 .container .text-wrapper2  .white-panel2 > a >  .txt3,
+	#section5 .container .text-wrapper3  .white-panel3 > a >  .txt4{
+		font-size: 1.2em;
+	}
 			
 
 }/*761 */
