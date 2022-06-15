@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*googleips 웹폰트 css 파일 불러오기*/
+
+@font-face {
+      font-family:'NotoSans_KR';
+      font-weight: 100;
+      src: url(../font/NotoSansKR-Thin.woff);
+  }
+
+  @font-face {
+      font-family: 'NotoSans_KR';
+      font-weight: 300;
+      src: url(../font/NotoSansKR-Light.woff);
+  }
+
+  @font-face {
+      font-family: 'NotoSans_KR';
+      font-weight: 400;
+      src: url(../font/NotoSansKR-Regular.woff);
+  }
+
+  @font-face {
+      font-family: 'NotoSans_KR';
+      font-weight: 500;
+      src: url(../font/NotoSansKR-Medium.woff);
+  }
+
+  @font-face {
+      font-family: 'NotoSans_KR';
+      font-weight: 700;
+      src: url(../font/NotoSansKR-Bold.woff);
+  }
+
+  @font-face {
+      font-family: 'NotoSans_KR';
+      font-weight: 900;
+      src: url(../font/NotoSansKR-Black.woff);
+  }
+
+  @font-face {
+    font-family: 'MYHaemalgeunSangsang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYHaemalgeunSangsang.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 저장된 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;  font-weight:300;  
+                src : url(../font/NanumGothic.ttf); }  */
+
+* {margin:0; padding:0;}
+html{font-size:15px;
+    height: 100%;
+    }
+   
+            
+body{font-size:15px; 
+     margin:0;
+     padding:0;
+     width:100%;
+     height: 100vh;
+      font-family: 'Noto Sans KR', sans-serif; }
+    
+ul, ol, li{list-style-type:none}
+img, fieldset{border:none;vertical-align: middle;outline:0}
+hr {clear:both;border:none}
+a {outline:0;color:inherit;text-decoration:none}
+table{border-collapse:collapse}
+input, textarea {color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle;}
+button{outline:0}

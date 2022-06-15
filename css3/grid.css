@@ -1,0 +1,111 @@
+﻿#container4{
+	position:relative;
+	
+}
+
+ .white-panel{
+	position:relative;
+	width: 130%;
+	top: 0%;
+	left:-35%;
+	border-radius: 10%;
+	transform: rotate(-26deg);
+	box-shadow:0px 1px 2px rgba(0,0,0,0.3);
+	
+}
+
+.white-panel2{
+	position: relative;
+    width: 120%;
+    top: 59%;
+    left: -53%;
+    border-radius: 10%;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
+	
+}
+
+.white-panel3{
+	position: relative;
+	width: 110%;
+    top: -1%;
+    left: -24%;
+    border-radius: 10%;
+	transform: rotate(40deg);
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
+}
+
+.white-panel > .back{
+	position: absolute;
+    transform: rotate(-73deg);
+    width: 50%;
+	top: -26%;
+    left: -18%;
+}
+
+.white-panel2 > .back{
+	position: absolute;
+    transform: rotate(165deg);
+    width: 50%;
+    top: -44%;
+    left: 71%;
+}
+
+.white-panel3 > .back{
+	position: absolute;
+    transform: rotate(-71deg);
+    width: 50%;
+    top: -42%;
+    left: -20%;
+}
+
+
+
+ .white-panel img,
+ .white-panel2 img,
+ .white-panel3 img {
+	width:100%;
+	max-width:100%;
+	border-radius: 10%;
+	height:auto;
+	opacity: 0.5;
+	
+}
+ 
+
+ .white-panel h2,
+.white-panel2 h2,
+ .white-panel3 h2 {
+	font-size:1em;
+	font-weight:bold;
+	background-color:transparent;
+}
+
+.white-panel > a:hover,
+.white-panel2 > a:hover,
+.white-panel3 > a:hover{
+	box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	margin-top:-5px;
+	
+}
+
+.white-panel > a:hover img,
+.white-panel2 > a:hover img,
+.white-panel3 > a:hover img{
+opacity: 1;
+transform: scale(1.2);
+overflow: hidden;
+box-sizing: content-box
+;}
+
+
+
+a:link, a:hover {
+	text-decoration:none;
+}
+
+
+@media all and(max-width:768px) {
+	.white-panel2{
+		top: 36%;
+	}
+}
