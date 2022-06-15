@@ -143,3 +143,30 @@ text-decoration: none !important;
 
 
 }
+
+@media all and (max-width: 580px){
+    .row{
+        display: flex;
+        flex-direction: row;
+      
+        top: 12%;
+        left: 12%;
+}
+
+    .row > div {
+        width: calc((100% - 10px*2)/3);
+    margin-right: 20px;
+}
+
+#section4 .fh5co-project-item img {
+    width: 100%;
+    height: 8em;
+    z-index: 8;
+    opacity: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    }
+
+
+}
