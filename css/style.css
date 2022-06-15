@@ -923,11 +923,11 @@ transition: 4s transform, 5s opacity;
 	}
 
 	#section2 .second-section .text-wrapper > h3{
-		font-size: 1em;
+		font-size: 1.1em;
 		padding: 0% 2% 1% 14%;
 	}
 	#section2 .second-section .text-wrapper > p{
-		font-size: 0.8em;
+		font-size: 1em;
 		padding: 1% 1% 1% 6%;
 	}
 
@@ -936,27 +936,27 @@ transition: 4s transform, 5s opacity;
 		transform: translate(0,11%);
 	}
 	#section2 .second-section .text-wrapper .size{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 	#section3 .second-section-1.show-animation {
 		top: 12%;
-		left: 20%;
+		left: 15%;
 	}
 
 	#section3 .second-section-1 .text-wrapper-1 > h2{
-		font-size: 2.5em;
+		font-size: 2.2em;
 	}
 	#section3 .second-section-1 .text-wrapper-1 > p{
-		font-size: 0.8em;
+		font-size: 0.7em;
 	
 	}
 	#section3 .second-section-1 .text-wrapper-1 > h3{
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 
 	#section3 .text-wrapper-1-1{
 		top: 35%;
-   		right: 8%;
+   		right: 12%;
 	}
 	#section3 .text-wrapper-1-1 > img{
 		width: 100%;}
