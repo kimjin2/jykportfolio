@@ -2,10 +2,9 @@
 
 
 .wrap{/* 패럴랙스에 필요한 부분 */
-	font-size: 1.2em;
+	font-size: 1.5rem;
 	position: relative;
 	width: 100%;
-	max-width: 1920PX;
 	height:100vh;
 	overflow-x: hidden;  
 	overflow-y: scroll;
@@ -885,7 +884,26 @@ transition: 4s transform, 5s opacity;
 
 	
 	#section1 .txt{
-		font-size: 1.8em;
+		font-size: 1.4em;
+	}
+
+	#section1 .t1 {
+		top: 34%;
+		left: 36%;}
+
+	#section1 .t2 {
+		top: 26%;
+		left: 47%;
+		}
+
+	#section1 .t3 {
+		top: 18%;
+		left: 54%;
+		}
+
+	#section1 .t1, .t2, .t3 {
+		width: 20%;
+    	height: 20%;
 	}
 
 	#section2 .second-section.show-animation{
@@ -897,10 +915,11 @@ transition: 4s transform, 5s opacity;
 
 	#section2 .second-section .text-wrapper > h3{
 		font-size: 1em;
-		padding: 0% 1% 1% 10%;
+		padding: 0% 2% 1% 14%;
 	}
 	#section2 .second-section .text-wrapper > p{
 		font-size: 0.8em;
+		padding: 1% 1% 1% 6%;
 	}
 
 	#section2 .second-section.show-animation .text-wrapper{
@@ -912,6 +931,7 @@ transition: 4s transform, 5s opacity;
 	}
 	#section3 .second-section-1.show-animation {
 		top: 12%;
+		left: 20%;
 	}
 
 	#section3 .second-section-1 .text-wrapper-1 > h2{
@@ -919,6 +939,7 @@ transition: 4s transform, 5s opacity;
 	}
 	#section3 .second-section-1 .text-wrapper-1 > p{
 		font-size: 0.8em;
+	
 	}
 	#section3 .second-section-1 .text-wrapper-1 > h3{
 		font-size: 1.5em;
@@ -930,6 +951,16 @@ transition: 4s transform, 5s opacity;
 	}
 	#section3 .text-wrapper-1-1 > img{
 		width: 100%;}
+
+		#section4 .h2{
+			font-size: 1.8em
+
+		}
+
+		#section4 .h2_2 {
+		top: -2%;
+    	left: 11%;
+		}
 
 		#section5 .title{
 			top: -23%;
