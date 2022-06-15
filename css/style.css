@@ -820,7 +820,7 @@ transition: 4s transform, 5s opacity;
 @media all and (max-width:785px){  
 
 	.container{
-		transform: translate(11%) scale(0.678);
+		transform: translate(11%) scale(0.7);
 		}
 
 	#headerIn .gnb{
@@ -917,6 +917,7 @@ transition: 4s transform, 5s opacity;
 
 	#section2 .second-section.show-animation{
 		top: 7%;
+		left: 15%;
 	}
 	#section1 .first-section .image-section .txt > .name{
 		font-size: 0.5em;
@@ -932,9 +933,11 @@ transition: 4s transform, 5s opacity;
 	}
 
 	#section2 .second-section.show-animation .text-wrapper{
-	
-		transform: translate(0,11%);
+		transform: translate(0,14%);
 	}
+	
+	
+	
 	#section2 .second-section .text-wrapper .size{
 		font-size: 1em;
 	}
@@ -955,8 +958,8 @@ transition: 4s transform, 5s opacity;
 	}
 
 	#section3 .text-wrapper-1-1{
-		top: 35%;
-   		right: 15%;
+		top: 20%;
+   		right: 12%;
 	}
 	#section3 .text-wrapper-1-1 > img{
 		width: 100%;}
@@ -980,6 +983,7 @@ transition: 4s transform, 5s opacity;
 			top: -11%;
 			left: 11%;
 		}
+	
 
 		#section5 .title{
 			top: -23%;
