@@ -136,4 +136,10 @@ text-decoration: none !important;
     top: 12%;
     left: 12%;
 }
+
+    .row > div {
+    width: calc((100% - 20px * 2) / 3);
+    margin-right: 20px;}
+
+
 }
