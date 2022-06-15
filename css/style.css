@@ -5,6 +5,7 @@
 	font-size: 1.5rem;
 	position: relative;
 	width: 100%;
+	max-width: 1920PX;
 	height:100vh;
 	overflow-x: hidden;  
 	overflow-y: scroll;
@@ -14,7 +15,7 @@
 
 
 .inner{
-	width:100%; max-width: 1420px; margin:0 auto ; 
+	width:100%; max-width: 1410px; margin:0 auto ; 
 }
 
 
@@ -310,7 +311,7 @@ top: 20%;
 }
 
 #section2 .second-section.show-animation {
-	top: 0%;
+	top: -5%;
 	left: 17%;
     opacity: 1;
 		}
@@ -435,7 +436,7 @@ top: 20%;
 
 #section3 .second-section-1.show-animation {
 	top: 12%;
-    left: 21%;
+    left: 15%;
     opacity: 1;
 		}
 
