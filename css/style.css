@@ -10,7 +10,8 @@
 	overflow-y: scroll;
 	perspective: 2%; 
 	perspective-origin: 20% 20%;
-	 /* 패럴랙스에 필요한 부분끝 */}
+	 /* 패럴랙스에 필요한 부분끝 */
+	}
 
 
 .inner{
@@ -581,6 +582,13 @@ transition: 4s transform, 4s opacity;
 	z-index: 25;
     /* font-weight: 400; */
 }
+
+#section4 .third-section .h2_3{
+	font-size: 1.8em;
+	color: black;
+    /* font-weight: 400; */
+}
+	
 	
 	/*****third Section Circle Shape*******/
 
