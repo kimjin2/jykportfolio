@@ -487,7 +487,7 @@ top: 20%;
 #section4 .third-section {
 	position: relative;
 	height: 100vh;
-	top: -10%;
+	top: -9%;
 	opacity: 0;
 	transition: 3s top, 2s opacity;
 }
@@ -1172,12 +1172,13 @@ transition: 4s transform, 5s opacity;
 }
 	
 	#section4 .third-section.show-animation {
-		left: 7.5%;
+		left: -3.5%;
 	}
 		#section4 .third-section  .h2_2 {
-			left: -3%;
-			top:-1%;
+			left: 8%;
+			top: -1%;
 			text-align: center;
+		
 		}
 	
 
@@ -1188,7 +1189,8 @@ transition: 4s transform, 5s opacity;
 
 	#section5 .fourth-section.show-animation {
 			top: 12%;
-    			left: 18%;
+    		left: 10%;
+			
 }
 	
 		#section5 .container .text-wrapper2 .white-panel2{
