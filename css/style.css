@@ -608,6 +608,7 @@ transition: 4s transform, 4s opacity;
 
 
 #section5{
+	position: relative;
 	width: 100%;
 	height: 100vh;
 	max-width:100%;
