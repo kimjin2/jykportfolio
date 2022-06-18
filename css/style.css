@@ -21,7 +21,7 @@
 
 section{position: relative;
 		background-color:transparent;
-		height: 100vh;
+		
 		}
 
 		
@@ -364,7 +364,6 @@ top: 20%;
 	/*background-color: rgb(105, 98, 98);*/
 	height: 100vh;
 	visibility: visible;
-
 	
 }
 
@@ -482,7 +481,10 @@ top: 20%;
 
 /*--section3 끝-*/
 
-
+#section4{
+	width: 100%;
+	/*background-color: rgb(105, 98, 98);*/
+	height: 100vh;}
 
 #section4 .third-section {
 	position: relative;
