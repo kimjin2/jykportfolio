@@ -28,17 +28,18 @@ $(function(){
 		// 윈도우에서 scroll() 스크롤이 작동될 때 일어날 일.
 		$(".wrap").scroll(function(){
 		//.scrollTop()은 선택한 요소의 스크롤바 수직 위치를 반환하거나 스크롤바 수직 위치를 정합니다.
-		var location = $(window).scrollTop();
+		var location = $(".wrap").scrollTop();
 		
 		content.each(function() {
 			//반복문(each)
-      var tg = $(this);
+      		var tg = $(this);
 			var idx = tg.index();
 			
-			if(tg.offset().top - 0 <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
+			if(tg.offset().top - 50 <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
 				menu.removeClass("active");
 				menu.eq(idx).addClass("active");
 				}
+			
 
     });//each() 끝
 			});//scroll() 끝
