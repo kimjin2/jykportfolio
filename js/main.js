@@ -22,7 +22,7 @@ $(function(){
 		var tt = section.offset().top;
  
 		//스크롤이 tt의 값에 맞게 움직이게
-	$("html,body,.wrap").stop().animate({scrollTop:tt});
+	$("html,.wrap").stop().animate({scrollTop:tt});
 		});//menu.click() 끝
 		
 		// 윈도우에서 scroll() 스크롤이 작동될 때 일어날 일.
@@ -35,7 +35,7 @@ $(function(){
       var tg = $(this);
 			var idx = tg.index();
 			
-			if(tg.offset().top - 60 <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
+			if(tg.offset().top - 0 <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
 				menu.removeClass("active");
 				menu.eq(idx).addClass("active");
 				}
@@ -85,15 +85,6 @@ $(function(){
 
 
    });//모바일 네비 fade
-
-   $('.gnb > li').each(function(){
-	
-	 $(this).click(function(){
-		$('.gnb > li').removeClass('active');
-		$(this).addClass('active')
-	 });
-	 
-  });
 
 
     $('.wrap').scroll(function(){
