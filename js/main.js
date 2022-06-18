@@ -86,14 +86,14 @@ $(function(){
 
    });//모바일 네비 fade
 
-   /*$('.gnb > li').each(function(){
+   $('.gnb > li').each(function(){
 	
 	 $(this).click(function(){
 		$('.gnb > li').removeClass('active');
 		$(this).addClass('active')
 	 });
 	 
-  });*/
+  });
 
 
     $('.wrap').scroll(function(){
