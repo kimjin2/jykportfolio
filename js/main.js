@@ -65,9 +65,9 @@ $(function(){
 		});//menu.click() 끝
 		
 		// 윈도우에서 scroll() 스크롤이 작동될 때 일어날 일.
-		$(window).scroll(function(){
+		$(".wrap").scroll(function(){
 		//.scrollTop()은 선택한 요소의 스크롤바 수직 위치를 반환하거나 스크롤바 수직 위치를 정합니다.
-		var location = $(window).scrollTop();
+		var location = $(".wrap").scrollTop();
 		
 		content.each(function() {
 			//반복문(each)
@@ -75,8 +75,8 @@ $(function(){
 			var idx = tg.index();
 			
 			if(tg.offset().top <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
-				menu.removeClass("on");
-				menu.eq(idx).addClass("on");
+				menu.removeClass("active");
+				menu.eq(idx).addClass("active");
 				}
 
     });//each() 끝
