@@ -6,10 +6,10 @@ $(function(){
 	var menu = $(".gnb > li");
 	var content = $("section");//section 으로 변경할 부분
 	
-	menu.click(function(event){
+	menu.click(function(){
 		/*preventDefault 는 a 태그 처럼 클릭 이벤트 외에 
 별도의 브라우저 행동을 막기 위해 사용됩니다.*/
-		event.preventDefault();
+		
 		
 		//사용자가 클릭한 li
 		var tg = $(this);
