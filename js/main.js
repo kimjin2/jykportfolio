@@ -26,7 +26,7 @@ $(function(){
 		});//menu.click() 끝
 		
 		// 윈도우에서 scroll() 스크롤이 작동될 때 일어날 일.
-		$(window).scroll(function(){
+		$(".wrap").scroll(function(){
 		//.scrollTop()은 선택한 요소의 스크롤바 수직 위치를 반환하거나 스크롤바 수직 위치를 정합니다.
 		var location = $(".wrap").scrollTop();
 		
@@ -86,14 +86,7 @@ $(function(){
 
    });//모바일 네비 fade
 
-   $('.gnb > li').each(function(){
-	
-	 $(this).click(function(){
-		$('.gnb > li').removeClass('active');
-		$(this).addClass('active')
-	 });
-	 
-  });
+   
 
 
     $('.wrap').scroll(function(){
