@@ -489,7 +489,7 @@ top: 20%;
 #section4 .third-section {
 	position: relative;
 	height: 100vh;
-	top: -9%;
+	top: 0%;
 	opacity: 0;
 	transition: 3s top, 2s opacity;
 }
