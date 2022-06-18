@@ -3,7 +3,7 @@
 */
 $(function(){
 
-	var menu = $(".gnb > li");
+	var menu = $(".gnb > li ");
 	var content = $("section");//section 으로 변경할 부분
 	
 	menu.click(function(event){
@@ -22,13 +22,13 @@ $(function(){
 		var tt = section.offset().top;
  
 		//스크롤이 tt의 값에 맞게 움직이게
-	$("html,.wrap").stop().animate({scrollTop:tt});
+	$(".wrap").stop().animate({scrollTop:tt});
 		});//menu.click() 끝
 		
 		// 윈도우에서 scroll() 스크롤이 작동될 때 일어날 일.
 		$(".wrap").scroll(function(){
 		//.scrollTop()은 선택한 요소의 스크롤바 수직 위치를 반환하거나 스크롤바 수직 위치를 정합니다.
-		var location = $(".wrap").scrollTop();
+		var location = $(window).scrollTop();
 		
 		content.each(function() {
 			//반복문(each)

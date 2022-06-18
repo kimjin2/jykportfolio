@@ -25,6 +25,11 @@ section{position: relative;
 		
 		}
 
+		article{
+			width:100%; 
+			
+
+		}
 		
 
 #headerIn{
@@ -75,7 +80,7 @@ section{position: relative;
 			padding: 2% 0 6% 0;
 		}
 
-		#headerIn .nav > .gnb > li.active{
+		#headerIn .nav > .gnb > li.active a{
 			color:blue;
 			border-bottom-color: 1px solid blue;
 		}
@@ -312,7 +317,7 @@ top: 20%;
 }
 
 #section2 .second-section.show-animation {
-	top: -5%;
+	top: 0;
 	left: 17%;
     opacity: 1;
 		}
@@ -434,7 +439,7 @@ top: 20%;
 }
 
 #section3 .second-section-1.show-animation {
-	top: 12%;
+	top: 6%;
     left: 15%;
     opacity: 1;
 		}
@@ -466,7 +471,7 @@ top: 20%;
 	} 
 
 #section3 .second-section-1.show-animation .text-wrapper-1{
-		transform: translate(0,-7%);
+		transform: translate(0,0);
 		opacity: 2;
 }
 
