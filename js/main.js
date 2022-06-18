@@ -35,7 +35,7 @@ $(function(){
       var tg = $(this);
 			var idx = tg.index();
 			
-			if(tg.offset().top <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
+			if(tg.offset().top - 0 <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
 				menu.removeClass("active");
 				menu.eq(idx).addClass("active");
 				}
