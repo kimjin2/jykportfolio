@@ -20,6 +20,14 @@ $(function(){
 		//선택된 영역의 top 의 좌표값을 저장
 		//.offset()은 선택한 요소의 좌표를 가져오거나 특정 좌표로 이동하게 합니다.
 		var tt = section.offset().top;
+		$('.gnb > li').each(function(){
+	
+			$(this).click(function(){
+			   $('.gnb > li').removeClass('active');
+			   $(this).addClass('active')
+			});
+			
+		 });
  
 		//스크롤이 tt의 값에 맞게 움직이게
 	$("html,body").stop().animate({scrollTop:tt});
