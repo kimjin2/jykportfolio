@@ -22,7 +22,7 @@ $(function(){
 		var tt = section.offset().top;
  
 		//스크롤이 tt의 값에 맞게 움직이게
-	$("html,body").stop().animate({scrollTop:tt});
+	$("html,.wrap").stop().animate({scrollTop:tt});
 		});//menu.click() 끝
 		
 		// 윈도우에서 scroll() 스크롤이 작동될 때 일어날 일.
