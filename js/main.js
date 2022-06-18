@@ -36,8 +36,8 @@ $(function(){
 			var idx = tg.index();
 			
 			if(tg.offset().top <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
-				menu.eq(idx).addClass("active");
 				menu.removeClass("active");
+				menu.eq(idx).addClass("active");
 				}
 
     });//each() 끝
