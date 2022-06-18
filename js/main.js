@@ -43,7 +43,7 @@ $(function(){
 	}
 
 	var menu = $(".gnb > li");
-	var content = $("section");//section 으로 변경할 부분
+	var content = $(".wrap > section");//section 으로 변경할 부분
 	
 	menu.click(function(event){
 		/*preventDefault 는 a 태그 처럼 클릭 이벤트 외에 
@@ -75,8 +75,8 @@ $(function(){
 			var idx = tg.index();
 			
 			if(tg.offset().top <= location){  //active 위치가 안맞으면 location + 위치값 을 추가하면 됨
-				menu.removeClass("active");
-				menu.eq(idx).addClass("active");
+				menu.removeClass("on");
+				menu.eq(idx).addClass("on");
 				}
 
     });//each() 끝
