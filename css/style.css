@@ -613,13 +613,13 @@ transition: 4s transform, 4s opacity;
 
 
 
-#section5{
+#section5-1{
 	width: 100%;
 	height: 100vh;
 	max-width:100%;
 }
 
-#section5 .fourth-section {
+#section5-1 .fourth-section {
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -628,90 +628,73 @@ transition: 4s transform, 4s opacity;
 	transition: 3s top, 2s opacity;
 }
 
-#section5 .fourth-section.show-animation {
-	top: 10%;
-    left: 20%;
+#section5-1 .fourth-section.show-animation {
+	top: -5%;
+    left: 0%;
     opacity: 1;
 }
 
-#section5 .fourth-section{
+#section5-1 .fourth-section{
 	width: 100%;
 }
 
-#section5 .third-section .text-wrapper .white-panel{
+#section5-1 .third-section .container4 .text-wrapper .white-panel{
 			transform: translate(0,0);
 			opacity: 0;
 		}
 
 
-#section5 .third-section.show-animation .text-wrapper .white-panel{
+#section5-1 .third-section.show-animation .container4 .text-wrapper .white-panel{
 	transform: translate(0,25%);
 	opacity: 2;
 	transition: 4s transform, 5s opacity;
 }
 
-#section5 .third-section.show-animation .text-wrapper .white-panel{
+#section5-1 .third-section.show-animation .container4 .text-wrapper .white-panel{
 	transform: translate(0,40%);
 	opacity: 2;
 	transition: 4s transform, 5s opacity;
 }
 
-#section5 .third-section .text-wrapper .white-panel{
+#section5-1 .third-section .container4 .text-wrapper .white-panel{
 	transform: translate(0,0);
 	opacity: 0;
 }
 
-#section5 .third-section.show-animation .text-wrapper .white-panel{
+#section5-1 .third-section.show-animation .container4 .text-wrapper .white-panel{
 transform: translate(0,20%);
 opacity: 2;
 transition: 4s transform, 5s opacity;
 }
 
-#section5 .third-section .text-wrapper .white-panel2{
-	transform: translate(0,0);
-	opacity: 0;
-	
-}
 
-#section5 .third-section.show-animation .text-wrapper .white-panel2{
-transform: translate(0,50%);
-opacity: 2;
-transition: 4s transform, 5s opacity;
-}
-
-#section5 .third-section .text-wrapper .white-panel3{
-	transform: translate(0,0);
-	opacity: 0;
-	transition: 4s transform, 5s opacity;
-}
-
-#section5 .third-section.show-animation .text-wrapper .white-panel3{
-transform: translate(20%,45%);
-opacity: 2;
-transition: 4s transform, 5s opacity;
-}
-
-
-#section5 .title{
+#section5-1 .title{
 	top: -25%;
     left: 69%;
 	font-size: 2em;
 }
 
 
-#section5 h2{
-	position: absolute;
+#section5-1 h2{
 	width: 100%;
 	font-size: 2em;
     top: 36%;
 	text-align: center;
 	visibility: visible;
 	color: black;
-	
 }
 
-#section5 .white-panel .h2_2 {
-	top: 45%;
+#section5-1 .sec_5_txt{
+	padding-top: 5%;
+}
+#section5-1 .sec_5_txt h3{
+	font-size: 1.8em;
+	padding: 2% 2% 2% 2% ;
+}
+
+#section5-1 .sec_5_txt p{
+	font-size: 1.3em;
+	padding: 2% 2% 2% 0% ;
 }
 
 
@@ -782,16 +765,15 @@ transition: 4s transform, 5s opacity;
 	#section1 .first-section .image-section .txt > .name{
 		font-size: 0.8em;
 	}
-
 	#section2 .text-wrapper {
-		padding: 1% 0 0 2%;
+		padding: 0% 1% 1% 5%%;
 	}
+
 	#section2 .second-section .text-wrapper > h3{
 		font-size: 1.5em;
-		padding: 0% 1% 1% 10%;
 	}
 	#section2 .second-section .text-wrapper > p{
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 
 	#section2 .second-section.show-animation .text-wrapper{
@@ -801,6 +783,11 @@ transition: 4s transform, 5s opacity;
 	#section2 .second-section .text-wrapper .size{
 		font-size: 1.5em;
 	}
+
+	#section2 .second-section .charset {
+		position: relative;
+		width: 52%;}
+
 	#section3 .second-section-1.show-animation .text-wrapper-1{
 		transform: translate(0,0%);
 	}
@@ -826,7 +813,7 @@ transition: 4s transform, 5s opacity;
 
 @media all and (max-width:860px){
 	.container{
-	transform: translate(11%) scale(0.7);
+			transform: translate(0%) scale(0.7);
 	}
 
 	#section3 .second-section-1 .text-wrapper-1 > h2{
@@ -993,36 +980,15 @@ transition: 4s transform, 5s opacity;
 
 		}
 
-		
-
 		#section4 .h2_2 {
 			top: -11%;
 			left: 11%;
 		}
-	
 
-		#section5 .title{
-			top: -23%;
-			font-size: 1.1em;
+		#section5-1 .sec_5_txt h3 {
+			font-size: 1.2em;
 		}
-
-		#section5 .container .text-wrapper2 .white-panel2{
-			top: 36%;
-		}
-		
-		#section5 .txt2, #section5 .txt3, #section5 .txt4 {
-			background-size: 130%;}
-
-			#section5 .container .text-wrapper3 .white-panel3 > a > .txt4 {
-				font-size: 0.9em;
-			}
-	
-	#section5 .container .text-wrapper  .white-panel > a >  .txt2,
-	#section5 .container .text-wrapper2  .white-panel2 > a >  .txt3,
-	#section5 .container .text-wrapper3  .white-panel3 > a >  .txt4{
-		font-size: 1.2em;
-	}
-			
+					
 
 }/*761 */
 
@@ -1031,7 +997,7 @@ transition: 4s transform, 5s opacity;
 @media all and (max-width:580px){  
 
 	.container{
-		transform: translate(11%) scale(0.725);
+		transform: translate(0%) scale(0.7);
 		}
 
 		
@@ -1069,7 +1035,7 @@ transition: 4s transform, 5s opacity;
 
 	.mainLogo {
 		width: 80%;
-		left: 4%;
+		left: 18%;
 	}
 	#section1 .t1 {
 		top: 34%;
@@ -1095,8 +1061,8 @@ transition: 4s transform, 5s opacity;
 	}
 
 	#section2 .second-section.show-animation{
-		top: 0%;
-		left: 7%;
+		top: -11%;
+   		left: 17%;
 	}
 	#section1 .first-section .image-section .txt > .name{
 		font-size: 0.5em;
@@ -1140,15 +1106,14 @@ transition: 4s transform, 5s opacity;
 
 	/*-580 section-*/
 	#section3 .text-wrapper-1 {
-		
 		padding: 1% 0 0 0%;
 	
 	}
 
 
 	#section3 .second-section-1.show-animation {
-		top: 12%;
-		left: 10%;
+		top: 15%;
+		left: 22%;
 	}
 
 	#section3 .second-section-1 .text-wrapper-1 > h2{
@@ -1177,7 +1142,8 @@ transition: 4s transform, 5s opacity;
 }
 	
 	#section4 .third-section.show-animation {
-		left: -3.5%;
+		left: 10%;
+    	top: -6%;
 	}
 		#section4 .third-section  .h2_2 {
 			left: 8%;
@@ -1186,37 +1152,21 @@ transition: 4s transform, 5s opacity;
 		
 		}
 	
-
-		#section5 .title{
-			top: -23%;
-			font-size: 1.3em;
+		#section4 .third-section .h2_3 {
+			font-size: 1em;
 		}
 
-	#section5 .fourth-section.show-animation {
-			top: 12%;
-    		left: 10%;
-			
+	
+	#section5-1 .fourth-section.show-animation {
+    		left: 0%;
+			top: -10%;
 }
-	
-		#section5 .container .text-wrapper2 .white-panel2{
-			top: 36%;
-		}
-		
-		#section5 .txt2, #section5 .txt3, #section5 .txt4 {
-			background-size: 130%;}
-
-			#section5 .container .text-wrapper3 .white-panel3 > a > .txt4 {
-				font-size: 0.6em;
-			}
-	
-		#section5 {
-			font-size: 1.8em
-
-		}
-	
-	#section5 .container .text-wrapper  .white-panel > a >  .txt2,
-	#section5 .container .text-wrapper2  .white-panel2 > a >  .txt3,
-	#section5 .container .text-wrapper3  .white-panel3 > a >  .txt4{
-		font-size: 0.5em;
+	#section5-1 .sec_5_txt h3 {
+		font-size: 1.2em;
 	}
+			
+	.container4{
+		margin-left: 5%;
+	}
+
 }	/*560*/

@@ -115,7 +115,7 @@ $(function(){
 
 
 		/********SECOND SECTION**************/
-		if ($(this).scrollTop() >= $('.second-section').position().top - 150) {
+		if ($(this).scrollTop() >= $('.second-section').position().top - 100) {
     		$('.second-section').removeClass('show-animation');
 		    $('.second-section').addClass('show-animation');
 		}
@@ -124,7 +124,7 @@ $(function(){
 		}
 
 		/********SECOND SECTION-1**************/
-		if ($(this).scrollTop() >= $('.second-section-1').position().top - 250) {
+		if ($(this).scrollTop() >= $('.second-section-1').position().top - 200) {
     		$('.second-section-1').removeClass('show-animation');
 		    $('.second-section-1').addClass('show-animation');
 		}
@@ -134,7 +134,7 @@ $(function(){
 
 
 		/********THIRD SECTION**************/
-		if ($(this).scrollTop() >= $('.third-section').position().top - 350) {
+		if ($(this).scrollTop() >= $('.third-section').position().top - 300) {
     		$('.third-section').removeClass('show-animation');
 		    $('.third-section').addClass('show-animation');
 		}
@@ -145,7 +145,7 @@ $(function(){
 
 
 		/********FOURTH SECTION**************/
-		if ($(this).scrollTop() >= $('.fourth-section').position().top - 450) {
+		if ($(this).scrollTop() >= $('.fourth-section').position().top - 400) {
     		$('.fourth-section').removeClass('show-animation');
 		    $('.fourth-section').addClass('show-animation');
 		}

@@ -3,7 +3,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    padding-left: 12%;
+    padding-left: 1%;
+	margin-left: 8%;
     justify-content: space-between;
     box-sizing: border-box;
 }
@@ -18,7 +19,9 @@
 	box-shadow:0px 1px 2px rgba(0,0,0,0.3)
 }
 #section5-1 .sec_5_txt{
-	width: 30%;
+	width: 40%;
+    position: relative;
+    left: 15%;
 }
 
 #section5-1 .title{
@@ -105,9 +108,18 @@ a:link, a:hover {
 	text-decoration:none;
 }
 
+@media all and(max-width:768px){
 
-@media all and(max-width:768px) {
-	.white-panel2{
-		top: 36%;
+	#section5-1 .container4 .white-panel{
+		left:0%;
+	     margin-bottom: 15%;
+		;
 	}
+
+	#section5-1 .container4 {
+		padding-left: 0%;
+		margin-left: 6%;
+	}
+
+
 }
