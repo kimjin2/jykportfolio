@@ -1,37 +1,39 @@
-﻿#container4{
-	position:relative;
-	
+﻿#section5-1 .container4{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 12%;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
  .white-panel{
 	position:relative;
-	width: 130%;
+	width: 60%;
 	top: 0%;
-	left:-35%;
+	left:5%;
 	border-radius: 10%;
-	transform: rotate(-18deg);
-	box-shadow:0px 1px 2px rgba(0,0,0,0.3);
-	
+	margin-bottom: 7%;
+	box-shadow:0px 1px 2px rgba(0,0,0,0.3)
+}
+#section5-1 .sec_5_txt{
+	width: 30%;
 }
 
-.white-panel2{
-	position: relative;
-    width: 120%;
-    top: 59%;
-    left: -53%;
-    border-radius: 10%;
-    box-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
-	
+#section5-1 .title{
+	text-align: center;
+	padding-top: 5%;
 }
 
-.white-panel3{
-	position: relative;
-	width: 110%;
-    top: -1%;
-    left: -24%;
-    border-radius: 10%;
-	transform: rotate(27deg);
-    box-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
+#section5-1 .white-panel2{
+	position:relative;
+	top: 0%;
+	left:5%;
+	border-radius: 10%;
+	margin-bottom: 5%;
+	box-shadow:0px 1px 2px rgba(0,0,0,0.3)
+	
 }
 
 .white-panel > .back{
