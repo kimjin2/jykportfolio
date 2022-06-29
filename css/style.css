@@ -318,7 +318,7 @@ top: 20%;
 
 #section2 .second-section.show-animation {
 	top: 0;
-	left: 17%;
+    left: 18%;
     opacity: 1;
 		}
 
@@ -439,8 +439,8 @@ top: 20%;
 }
 
 #section3 .second-section-1.show-animation {
-	top: 6%;
-    left: 15%;
+	top: 11%;
+    left: 18%;
     opacity: 1;
 		}
 
@@ -1073,7 +1073,7 @@ font-weight: 700;
 	}
 
 	#section2 .second-section.show-animation{
-		top: -11%;
+		top: 0%;
    		left: 17%;
 	}
 	#section1 .first-section .image-section .txt > .name{
@@ -1191,7 +1191,7 @@ font-weight: 700;
 
 	#section5-1 .fourth-section .text-wrapper .sec_5_txt{
 		width: 100%;
-		padding: 0% 0% 3% 0%;
+		padding: 0.5% 0% 5% 0%;
 	}
 
 	#section5-1 .fourth-section .text-wrapper .white-panel{
