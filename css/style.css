@@ -304,6 +304,10 @@ top: 20%;
 	box-sizing: border-box;
 }
 
+#section2 .tu{
+ width: 78.5%;
+ padding: 1% 1% 1% 1%;
+}
 
 #section2 .second-section .text-wrapper > p {
 	width: 100%;
@@ -358,7 +362,7 @@ top: 20%;
 }
 
 #section2 .second-section.show-animation .text-wrapper{
-		transform: translate(0,11%);
+		transform: translate(0,2%);
 			opacity: 1;
 }
 
