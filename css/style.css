@@ -585,7 +585,7 @@ transition: 4s transform, 4s opacity;
 	color: #000;
 }
 
-#section4 .third-section .h2_2{
+#section4 .third-section .h2_3{
 	top: -6%;
     left: 9%;
 	color: #000;
@@ -596,7 +596,7 @@ transition: 4s transform, 4s opacity;
 }
 
 #section4 .third-section .h2_3{
-	font-size: 1.8em;
+	font-size: 1.2em;
 	color: black;
     /* font-weight: 400; */
 }

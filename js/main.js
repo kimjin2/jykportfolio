@@ -194,15 +194,9 @@ $(function(){
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
-
         fixedContentPos: false
     });
 	};
 
-	// Call the functions 
-	magnifPopup();
-	magnifVideo();
- 
-	
 })
 //ready
