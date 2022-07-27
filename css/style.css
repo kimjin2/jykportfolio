@@ -140,6 +140,7 @@ section{position: relative;
 .our-work-wrapper .text-wrapper2 {
 	position: relative;
 	width: 100%; 
+	top: 1%;
 	box-sizing: border-box;
 	height: 100vh;
 	
@@ -499,9 +500,10 @@ top: 20%;
 #section4 .third-section {
 	position: relative;
 	height: 100vh;
-	top: 0%;
+	top: -5%;
 	opacity: 0;
 	transition: 3s top, 2s opacity;
+	
 }
 
 
