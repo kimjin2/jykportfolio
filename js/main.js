@@ -3,6 +3,8 @@
 */
 $(function(){
 
+	
+
 	var menu = $(".gnb > li ");
 	var content = $("section");//section 으로 변경할 부분
 	
@@ -197,6 +199,38 @@ $(function(){
         fixedContentPos: false
     });
 	};
-
-})
+	var li_count = $('.thum_list li').length;
+	var click_count = 1;
+	//alert(li_count)
+	/*for(var count=0;count < li_count;count++){
+	   $('.thum_list li a').eq(count).text(count+1);
+	}*/
+ 
+   for(var count = 0;count < click_count * 4;count++){
+	   $('.thum_list li').eq(count).show();
+	}
+	   //클릭수만큼 li 보이기
+   $('.more').click(function(){
+	   click_count += 1;
+	   //alert(Math.ceil(li_count/4));
+	   if(Math.ceil(li_count/4) > click_count){
+		 //alert(click_count);
+		 li_show(click_count)
+	   }else if(Math.ceil(li_count/4) == click_count) {
+		   li_show(click_count)
+		   $('.more').text('줄이기');     
+		 } else {
+		   $('.thum_list li').hide()
+		   click_count = 1;     
+		   $('.more').text('더보기');
+		   li_show(click_count)
+		   
+		 }
+	  })
+   })//전체
+   function li_show(click_count){
+	   for(var count = 0;count < click_count * 4;count++){
+		 $('.thum_list li').eq(count).show();
+		 } 
+}
 //ready
