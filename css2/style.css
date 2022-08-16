@@ -1,5 +1,9 @@
-.container{max-width:1440px; height: 100vh;
+.container{
+    position: relative;
+     max-width:1440px;
+     height: 100vh;
     margin:0 auto}
+
 .row{position: relative;
     display:flex;flex-wrap:wrap;
     justify-content:start ;
@@ -140,12 +144,13 @@ text-decoration: none !important;
 
 @media all and (max-width: 785px){
     .row{
+        font-size: 0.8em;
     top: 12%;
     left: 12%;
 }
-
     .row > div {
-    width: calc((100% - 20px * 2) / 3);
+        font-size: 0.5em;
+    width: calc((100% - 10px *5) / 6);
     margin-right: 20px;}
 
 
@@ -155,19 +160,19 @@ text-decoration: none !important;
     .row{
         display: flex;
         flex-direction: row;
-      
         top: 12%;
         left: 12%;
 }
 
     .row > div {
-        width:calc((100% - 40px) / 2);
+        font-size: 0.5em;
+        width: calc((100% - 10px *5) / 6);
     margin-right: 20px;
 }
 
 #section4 .fh5co-project-item img {
     width: 100%;
-    height: 8em;
+    height: 80%;
     z-index: 8;
     opacity: 1;
     -webkit-transition: 0.3s;
