@@ -2,9 +2,10 @@
  HTML5 Shiv v3.7.0 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 */
 $(function(){
-
 	
-
+	$(".t1").stop().animate({'left':500, top:250},1500);
+	$(".t2").stop().animate({'left':800, top:500},1500);
+	$(".t3").stop().animate({'left':1000, top:300},1500);
 	var menu = $(".gnb > li ");
 	var content = $("section");//section 으로 변경할 부분
 	
@@ -75,6 +76,13 @@ $(function(){
 
    $(window).resize(function(){
 
+	if($(window).width() > 785){
+		$(".t1").stop().animate({'left':200, top:150},1500);
+     	$(".t2").stop().animate({'left':400, top:250},1500);
+	    $(".t3").stop().animate({'left':500, top:100},1500);
+		sta = 0
+	}
+
 
 	if($(window).width() > 785) {
 		$(this).removeClass('on');
@@ -85,6 +93,8 @@ $(function(){
 		$('.nav').fadeOut();
 		sta = 0;
 	}
+
+	
 
 
    });//모바일 네비 fade
