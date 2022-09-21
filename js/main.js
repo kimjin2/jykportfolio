@@ -209,7 +209,7 @@ $(function(){
         fixedContentPos: false
     });
 	};
-	var li_count = $('.thum_list li').length;
+	var li_count = $('.thum_list div').length;
 	var click_count = 1;
 	//alert(li_count)
 	/*for(var count=0;count < li_count;count++){
@@ -217,7 +217,7 @@ $(function(){
 	}*/
  
    for(var count = 0;count < click_count * 4;count++){
-	   $('.thum_list li').eq(count).show();
+	   $('.thum_list div').eq(count).show();
 	}
 	   //클릭수만큼 li 보이기
    $('.more').click(function(){
@@ -230,7 +230,7 @@ $(function(){
 		   li_show(click_count)
 		   $('.more').text('줄이기');     
 		 } else {
-		   $('.thum_list li').hide()
+		   $('.thum_list div').hide()
 		   click_count = 1;     
 		   $('.more').text('더보기');
 		   li_show(click_count)
@@ -240,7 +240,10 @@ $(function(){
    })//전체
    function li_show(click_count){
 	   for(var count = 0;count < click_count * 4;count++){
-		 $('.thum_list li').eq(count).show();
+		 $('.thum_list div').eq(count).show();
 		 } 
+
+		 
+
 }
 //ready

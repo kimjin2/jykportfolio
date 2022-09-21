@@ -1,22 +1,30 @@
-.container{
-    position: relative;
+#section4 .container{
+    display: table-cell;
+     position: relative;
      max-width:1440px;
      height: 100vh;
-    margin:0 auto}
+     margin:0 auto}
 
-.row{position: relative;
-    display:flex;flex-wrap:wrap;
-    justify-content:start ;
+#section4 .row{
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
     width: 100%;
-    top: 7%;
+    top: 0%;
     left: 10%;
 }
 
-.row > div{width:calc((100% - 40px) / 3);margin-right:20px;}
-.row > div:nth-child(3n){margin-right:0}
+#section4 .more{left: 0;
+    width: 9%;
+    position: absolute
+    ;line-height: 3em;border:1px solid #ccc;text-align: center;}
+
+#section4 .row > div{display: none ;width:calc((100% - 40px) / 5);margin-right:20px;}
+#section4 .row > div:nth-child(3n){margin-right:0}
 
 #section4 {
-overflow: hidden;
+    display: table;
 position: relative;
 color: rgba(255, 255, 255, 0.5);
 background-color: #f37d6b
@@ -73,7 +81,7 @@ color: rgba(255, 255, 255, 0.8);
 
 
 #section4 .fh5co-project-item {
-display: block;
+display: inline-block;
 width: 95%;
 position: relative;
 top: 0;
@@ -137,44 +145,40 @@ text-decoration: none !important;
 
 #section4 .h2_2{
     position: absolute;
-    top: -7%;
+    top: -11%;
     left: 10%;
 }
 
 @media all and (max-width: 785px){
-    .row{
+    #section4 .row{
         font-size: 0.8rem;
     top: 12%;
     left: 12%;
     
     margin: auto
 }
-    .row > div {
-        font-size: -1.5em;
-    width: calc((100% - 20px*2)/3);
-    margin-right: 20px;}
+#section4 .row > div {
+       font-size: -1.5rem;
+    margin-right: 20px;
+}
 
 
 }
 
 @media all and (max-width: 580px){
-    .row{
-        display: flex;
-        flex-direction: row;
+    #section4  .row{
         top: 12%;
         left: 12%;
         margin: auto;
 }
 
-    .row > div {
-        font-size: -1.5em;
-        width: calc((50% - 20px*2)/3);
-    margin-right: 20px;
+#section4 .row > div {
+        font-size: -1.5rem;
+        
 }
 
 #section4 .fh5co-project-item img {
     width: 100%;
-    height: 80%;
     z-index: 8;
     opacity: 1;
     -webkit-transition: 0.3s;
