@@ -3,7 +3,7 @@
 
 .wrap {
 	/* 패럴랙스에 필요한 부분 */
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -16,7 +16,7 @@
 
 
 .inner {
-	width: 100%;
+	width: 95%;
 	max-width: 1420px;
 	margin: 0 auto;
 }
@@ -25,7 +25,7 @@
 section {
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background-color: transparent;
 
 }
@@ -105,8 +105,8 @@ article {
 
 #headerIn .gnb-le {
 	width: 100%;
-	padding: 1% 2% 2% 2%;
-	font-size: 1.4em;
+	padding: 1% 0% 1% 1%;
+    font-size: 1.4rem;
 	font-family: 'MYHaemalgeunSangsang'
 }
 
@@ -155,7 +155,7 @@ article {
 	width: 100%;
 	top: 1%;
 	box-sizing: border-box;
-	height: 67vh;
+	height: 100vh;
 
 }
 
@@ -170,7 +170,7 @@ article {
 /*****First Section Circle Shape*******/
 #section1 {
 	margin-top: 0;
-	padding-top: 11vh;
+	padding-top: 5rem;
 	width: 100%;
 	/*background-color: aqua;*/
 	height: 100vh;
@@ -189,7 +189,7 @@ article {
 #section1 .our-work-wrapper .image-section {
 	position: relative;
 	width: 100%;
-	top: 20%;
+	top: 17rem;
 }
 
 
@@ -585,7 +585,7 @@ article {
 	width: 100%;
 	visibility: visible;
 	color: #000;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	margin-bottom: 2%;
 	text-align: center;
 	padding: 1% 1% 1% 1%;
@@ -596,7 +596,7 @@ article {
 	width: 100%;
 	top: 14%;
 	left: -10%;
-	font-size: 2em;
+	font-size: 2rem;
 	text-align: center;
 	visibility: visible;
 	color: #000;
@@ -607,7 +607,7 @@ article {
 	left: 9%;
 	color: #000;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2.5rem;
 	z-index: 25;
 	/* font-weight: 400; */
 }
@@ -637,7 +637,7 @@ article {
 #section5-1 {
 	width: 100%;
 	height: 100vh;
-	max-width: 100%;
+	max-width: 1440px
 }
 
 #section5-1 .fourth-section {
@@ -692,7 +692,7 @@ article {
 #section5-1 .title {
 	top: -25%;
 	left: 69%;
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 #section5-1 .fourth-section .text-wrapper .sec_5_txt span {
@@ -701,7 +701,7 @@ article {
 
 #section5-1 h2 {
 	width: 100%;
-	font-size: 2em;
+	font-size: 2rem;
 	top: 36%;
 	text-align: center;
 	visibility: visible;
@@ -711,13 +711,13 @@ article {
 #section5-1 .sec_5_txt {}
 
 #section5-1 .sec_5_txt h3 {
-	font-size: 1.9em;
+	font-size: 1.9rem;
 	padding: 2% 2% 2% 2%;
 	text-align: center;
 }
 
 #section5-1 .fourth-section .text-wrapper .sec_5_txt p {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	padding: 1% 1% 1% 0%;
 }
 
@@ -738,7 +738,7 @@ article {
 	display: inline-block;
 	transform: rotate(-40deg);
 	top: 8%;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	right: 44%;
 
 }
@@ -747,7 +747,7 @@ article {
 	display: inline-block;
 	transform: rotate(28deg);
 	top: -10%;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	right: -46%;
 	z-index: 5978;
 }
@@ -763,7 +763,7 @@ article {
 	transform: rotate(-30deg);
 	top: -8%;
 	right: 46%;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	border-radius: 55%;
 	z-index: 5979;
 	overflow: hidden;
@@ -779,15 +779,15 @@ article {
 @media all and (max-width:1163px) {
 
 	#headerIn .gnb-le {
-		font-size: 1.2em;
+		font-size: 1.2rem;
 	}
 
 	#section1 .txt {
-		font-size: 3em;
+		font-size: 3rem;
 	}
 
 	#section1 .first-section .image-section .txt>.name {
-		font-size: 0.8em;
+		font-size: 0.8rem;
 	}
 
 	#section2 .text-wrapper {
@@ -795,11 +795,11 @@ article {
 	}
 
 	#section2 .second-section .text-wrapper>h3 {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 	}
 
 	#section2 .second-section .text-wrapper>p {
-		font-size: 0.9em;
+		font-size: 0.9rem;
 	}
 
 	#section2 .second-section.show-animation .text-wrapper {
@@ -807,7 +807,7 @@ article {
 	}
 
 	#section2 .second-section .text-wrapper .size {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 	}
 
 	#section2 .second-section .charset {
@@ -824,12 +824,12 @@ article {
 	}
 
 	#section5-1 .sec_5_txt h3 {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 
 	}
 
 	#section5-1 .fourth-section .text-wrapper .sec_5_txt p {
-		font-size: 1.1em;
+		font-size: 1.1rem;
 	}
 
 }
@@ -842,11 +842,11 @@ article {
 	}
 
 	#section3 .second-section-1 .text-wrapper-1>h2 {
-		font-size: 2.4em;
+		font-size: 2.4rem;
 	}
 
 	#section3 .second-section-1 .text-wrapper-1>p {
-		font-size: 1em;
+		font-size: 1rem;
 	}
 
 }
@@ -860,7 +860,7 @@ article {
 	}
 
 	#headerIn .gnb {
-		font-size: 0.9em;
+		font-size: 0.9rem;
 		top: 99%;
 		right: 8%;
 	}
@@ -871,11 +871,11 @@ article {
 
 	#headerIn .spinner-master {
 		position: absolute;
-		margin: 15px;
+		margin: auto 15px;
 		height: 30px;
 		width: 30px;
-		top: 0.5em;
-		right: 1.5em;
+		top: 0.5rem;
+		right: 1.5rem;
 		float: right;
 	}
 
@@ -1131,7 +1131,7 @@ article {
 	}
 
 	#section2 .second-section.show-animation {
-		top: 0%;
+		top: -7%;
 		left: 17%;
 	}
 

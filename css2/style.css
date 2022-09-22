@@ -37,75 +37,61 @@ background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95
 background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);*/
 }
 #section4 a {
-color: rgba(255, 255, 255, 0.5);
-text-decoration: underline;
-}
-#section4 a:hover {
-color: white;
-}
-#section4:before, #section4:after {
-position: absolute;
-transform: rotate(-1.7deg);
--ms-transform: rotate(-1.7deg);
--webkit-transform: rotate(-1.7deg);
--o-transform: rotate(-1.7deg);
--moz-transform: rotate(-1.7deg);
-background-color: #fff;
-content: "";
-z-index: 3;
-display: inline-block;
-height: 70px;
-padding: 0;
-width: 101%;
-}
-#section4:before {
-top: 0;
-margin-top: -94px;
-}
-#section4:after {
-bottom: -40px;
-margin-bottom: -58px;
-}
-#section4 .section-heading h2 {
-color: #fff;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
 }
 
+#section4 a:hover {
+    color: white;
+}
+
+
+#section4:before {
+    top: 0;
+    margin-top: -94px;
+}
+
+#section4:after {
+    bottom: 31px;
+    margin-bottom: -58px;
+}
+
+#section4 .section-heading h2 {
+    color: #fff;
+}
 
 #section4 .section-heading h2:after {
-background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
 }
+
 #section4 .section-heading h3 {
-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
-
-
-
 #section4 .fh5co-project-item {
-display: inline-block;
-width: 95%;
-position: relative;
-top: 0;
-background: #fff;
-overflow: hidden;
-z-index: 9;
-margin-bottom: 30px;
--webkit-border-radius: 7px;
--moz-border-radius: 7px;
--ms-border-radius: 7px;
-border-radius: 7px;
--webkit-transition: 0.3s;
--o-transition: 0.3s;
-transition: 0.3s;
+    display: inline-block;
+    width: 95%;
+    position: relative;
+    top: 0;
+    background: #fff;
+    overflow: hidden;
+    z-index: 9;
+    margin-bottom: 30px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
-
 #section4 .fh5co-project-item img {
-width: 100%;
-height: 15em;
-z-index: 8;
-opacity: 1;
--webkit-transition: 0.3s;
--o-transition: 0.3s;
-transition: 0.3s;
+    width: 100%;
+    height: 15em;
+    z-index: 8;
+    opacity: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 #section4 .fh5co-project-item .fh5co-text {
