@@ -594,7 +594,7 @@ article {
 #section4 h2 {
 	position: relative;
 	width: 100%;
-	top: 14%;
+	top: -14%;
 	left: -10%;
 	font-size: 2rem;
 	text-align: center;
